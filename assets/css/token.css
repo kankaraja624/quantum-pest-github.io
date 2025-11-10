@@ -1,0 +1,70 @@
+/* HSL design tokens */
+:root{
+  --background: 0 0% 100%;
+  --foreground: 210 40% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 210 40% 12%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 40% 12%;
+
+  --primary: 174 62% 35%;
+  --primary-foreground: 0 0% 100%;
+  --primary-hover: 174 62% 30%;
+
+  --secondary: 210 50% 15%;
+  --secondary-foreground: 0 0% 100%;
+  --secondary-hover: 210 50% 12%;
+
+  --muted: 210 40% 96%;
+  --muted-foreground: 210 20% 45%;
+
+  --accent: 174 62% 45%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 174 62% 35%;
+
+  --radius: 0.5rem;
+
+  --hero-overlay: 210 50% 5%;
+  --trust-bg: 174 62% 98%;
+
+  --gradient-primary: linear-gradient(135deg, hsl(174 62% 35%), hsl(174 62% 45%));
+  --gradient-hero: linear-gradient(135deg, hsl(210 50% 15% / 0.95), hsl(174 62% 20% / 0.92));
+
+  --shadow-lg: 0 10px 30px -5px hsl(210 40% 12% / 0.15);
+  --shadow-xl: 0 20px 40px -10px hsl(210 40% 12% / 0.2);
+}
+.dark{
+  --background: 210 50% 8%;
+  --foreground: 0 0% 98%;
+  --card: 210 50% 10%;
+  --card-foreground: 0 0% 98%;
+  --popover: 210 50% 10%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 174 62% 45%;
+  --primary-foreground: 0 0% 100%;
+  --primary-hover: 174 62% 50%;
+  --secondary: 210 40% 20%;
+  --secondary-foreground: 0 0% 100%;
+  --secondary-hover: 210 40% 25%;
+  --muted: 210 40% 15%;
+  --muted-foreground: 210 20% 65%;
+  --accent: 174 62% 50%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 62.8% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 210 40% 20%;
+  --input: 210 40% 20%;
+  --ring: 174 62% 45%;
+  --hero-overlay: 210 50% 5%;
+  --trust-bg: 210 40% 12%;
+}
+/* Increase star fill visibility for Lucide outline icons */
+i[data-lucide="star"].fill-\[hsl\(var\(--primary\)\)\] svg {
+  fill: hsl(var(--primary));
+}
