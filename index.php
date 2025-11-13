@@ -1,7 +1,7 @@
 <?php
 $page_title = "Home | Quantum Pest Management";
 // This new path is great! It's much more reliable.
-include __DIR__ . "/includes/header.php";
+include __DIR__ . "/assets/includes/header.php";
 ?>
 
 <section id="home" class="relative min-h-[600px] md:min-h-[700px] flex items-center">
@@ -298,5 +298,6 @@ include __DIR__ . "/includes/header.php";
         </a>
     </div>
 </section>
+
 
 <?php include __DIR__ . "/includes/footer.php"; ?>
