@@ -1,4 +1,4 @@
-<?php $page_title = "Contact | Quantum Pest Management"; include __DIR__."/includes/header.php"; ?>
+<?php $page_title = "Contact | Quantum Pest Management"; include __DIR__."/assets/includes/header.php"; ?>
 <section class="py-20">
   <div class="container px-4 md:px-8">
     <div class="text-center mb-12">
@@ -78,4 +78,5 @@
     </div>
   </div>
 </section>
-<?php include __DIR__."/includes/footer.php"; ?>
+<?php include __DIR__."/assets/includes/footer.php"; ?>
+
