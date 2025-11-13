@@ -5,7 +5,7 @@ include __DIR__ . "/assets/includes/header.php";
 ?>
 
 <section id="home" class="relative min-h-[600px] md:min-h-[700px] flex items-center">
-    <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('/quantum/assets/img/hero.jpg')">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('/quantum/img/hero.jpg')">
         <div class="absolute inset-0 bg-gradient-hero"></div>
     </div>
     <div class="container relative z-10 px-4 md:px-8 py-20">
@@ -80,7 +80,7 @@ include __DIR__ . "/assets/includes/header.php";
 <section id="about" class="py-20" style="background-color:hsl(var(--trust-bg));">
     <div class="container px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-        <video class="rounded-lg shadow-xl w-full h-full object-contain" src="/quantum/assets/img/quantum_video.mp4" playsinline muted loop autoplay controls></video>
+        <video class="rounded-lg shadow-xl w-full h-full object-contain" src="/quantum/img/quantum_video.mp4" playsinline muted loop autoplay controls></video>
 
         <div>
             <h2 class="text-3xl md:text-5xl font-bold mb-6">Why Choose Quantum?</h2>
@@ -301,5 +301,6 @@ include __DIR__ . "/assets/includes/header.php";
 
 
 <?php include __DIR__ . "/assets/includes/footer.php"; ?>
+
 
 
