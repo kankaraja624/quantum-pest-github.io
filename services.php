@@ -1,4 +1,4 @@
-<?php $page_title = "Services | Quantum Pest Management"; include __DIR__."/includes/header.php"; ?>
+<?php $page_title = "Services | Quantum Pest Management"; include __DIR__."/assets/includes/header.php"; ?>
 <div class="container">
   <h1 class="h2 mb-4">Our Services</h1>
   <div class="row g-4">
@@ -19,4 +19,5 @@
     ?>
   </div>
 </div>
-<?php include __DIR__."/includes/footer.php"; ?>
+<?php include __DIR__."/assets/includes/footer.php"; ?>
+
